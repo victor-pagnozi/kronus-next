@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Container } from "./styles";
 import Head from "next/head";
+import Link from 'next/link';
 
 function Login() {
   return (

@@ -5,7 +5,7 @@ export const ContainerFooter = styled.div`
     justify-content: center;
     align-items: center;
     background-color: var(--color-footer);
-    padding: 60px;
+    height: 100px;
 
 
     a{
