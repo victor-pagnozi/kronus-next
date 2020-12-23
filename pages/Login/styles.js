@@ -1,0 +1,126 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  .img-foguete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: var(--color-primary);
+  }
+
+  .img-foguete img {
+    width: 500px;
+  }
+
+  .login-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-background);
+  }
+
+  .login-container h1 {
+    font-size: 3.2rem;
+  }
+
+  .login-container h5 {
+    font-size: 1.2rem;
+  }
+
+  .login-container img {
+    width: 100px;
+  }
+
+  .input-div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+  }
+
+  .i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-gray);
+  }
+
+  .i i {
+    transition: 0.3s;
+    font-size: 16px;
+  }
+
+  .input-div.focus .i i {
+    color: var(--color-primary);
+  }
+
+  .input-div > div {
+    position: relative;
+    height: 45px;
+  }
+
+  .input-div input {
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0.7rem;
+    font-size: 18px;
+  }
+
+  a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--color-dark);
+  }
+
+  a:hover {
+    transition: 0.3s;
+    text-decoration: none;
+    color: var(--color-primary-dark);
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 1rem 25%;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      to right,
+      var(--color-primary),
+      var(--color-primary-light),
+      var(--color-primary)
+    );
+    color: var(--color-text);
+  }
+
+  .btn:hover {
+    background-position: right;
+    color: black;
+  }
+
+  .i i:focus {
+    color: var(--color-primary);
+  }
+  /*Fim do Float Label*/
+`;
