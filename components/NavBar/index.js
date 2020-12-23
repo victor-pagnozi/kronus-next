@@ -1,14 +1,15 @@
 import React from "react";
-import { Container } from "./styles";
+import { ContainerNav } from "./styles";
+import Image from 'next/image';
 
 function NavBar() {
   return (
-    <Container>
-      <img src="https://i.imgur.com/aUTOLz2.png" alt="Logo do Site"/>
+    <ContainerNav>
+      <Image src="/logo.jpg" width={90} height={70} alt="Logo do Site"/>
       <a href="#">Teste</a>
       <a href="#">Teste</a>
       <a href="#">Fale Conosco</a>
-    </Container>
+    </ContainerNav>
   );
 }
 

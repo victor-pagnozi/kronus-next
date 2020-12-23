@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const ContainerNav = styled.header`
     height: 70px;
     background-color: var(--color-primary);
     top: 0%;
