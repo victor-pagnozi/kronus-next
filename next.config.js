@@ -1,5 +1,5 @@
 // deafult
-const withCss = require('@zeit/next-css');
+/*const withCss = require('@zeit/next-css');
 
 // default Config 
 // module.exports = withCSS({});
@@ -8,4 +8,4 @@ const withCss = require('@zeit/next-css');
 // Custom Config
 module.exports = withCSS({
   cssModules: true,
-})
+})*/

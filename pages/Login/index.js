@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Container } from "./styles";
 import Head from "next/head";
-import Link from 'next/link';
+import Link from "next/link";
 
 function Login() {
   return (
@@ -63,12 +63,24 @@ function Login() {
               <label htmlFor="password">Password</label>
             </div>
           </div>
-          <a href="#">
-            Esqueceu a senha? Não se preocupe, clique aqui para recuperá-la
-          </a>
-          <a className="btn" href="/">
-            Home
-          </a>
+          <Link href="#">
+            <a>
+              Esqueceu a senha? Não se preocupe, clique aqui para recuperá-la
+            </a>
+          </Link>
+
+          <div>
+            <Link href="#">
+              <a>
+                Novo aqui?! Faça seu cadastro agora e tenha acesso a incríveis
+                projetos!
+              </a>
+            </Link>
+          </div>
+
+          <Link href="/">
+            <a className="btn">Home</a>
+          </Link>
         </form>
       </div>
     </Container>
