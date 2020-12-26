@@ -36,4 +36,36 @@ export const Container = styled.form`
       justify-content: center;
       align-items: center;
   }
+
+  .desc-canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .desc-canvas span{
+    font: 500 16px 'Roboto', sans-serif;
+    color: var(--color-primary);
+    text-transform: uppercase; 
+  }
+  .desc-canvas p{
+    font: 200 14px 'Roboto', sans-serif;
+    font-style: italic;
+    margin-top: 8px;
+    color: var(--color-gray);
+  }
+
+  .button-step{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+  }
+
+  button{
+
+  } 
 `;
