@@ -7,8 +7,10 @@ export const Container = styled.form`
   background-color: var(--color-background);
   flex-direction: column;
   overflow: hidden;
+  position: relative;
   max-width: 100%;
-  height: 100vh;
+  height: 100%;
+  margin-bottom: 30px;
 
   label {
     margin-right: 20px;
@@ -63,9 +65,5 @@ export const Container = styled.form`
     justify-content: space-around;
     align-items: center;
     width: 50%;
-  }
-
-  button{
-
   } 
 `;

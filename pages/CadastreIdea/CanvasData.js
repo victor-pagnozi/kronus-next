@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Container } from "./styles";
 
+import Footer from "../../components/Footer";
+
 export class CanvasData extends Component {
   continue = (e) => {
     e.preventDefault();
@@ -75,7 +77,79 @@ export class CanvasData extends Component {
               placeholder=" "
               required
             />
-            <label htmlFor="relacionamento_clientes">Forma de relacionamento com os clientes</label>
+            <label htmlFor="relacionamento_clientes">
+              Forma de relacionamento com os clientes
+            </label>
+          </div>
+        </div>
+
+        <div className="label-float">
+          <div>
+            <input
+              type="text"
+              id="fonte_de_receita"
+              name="fonte_de_receita"
+              aria-describedby="Fonte de Receita"
+              placeholder=" "
+              required
+            />
+            <label htmlFor="fonte_de_receita">Fonte de Receita</label>
+          </div>
+        </div>
+
+        <div className="label-float">
+          <div>
+            <input
+              type="text"
+              id="principais_parcerias"
+              name="principais_parcerias"
+              aria-describedby="Principais Parcerias"
+              placeholder=" "
+              required
+            />
+            <label htmlFor="principais_parcerias">Principais Parcerias</label>
+          </div>
+        </div>
+
+        <div className="label-float">
+          <div>
+            <input
+              type="text"
+              id="atividades_principais"
+              name="atividades_principais"
+              aria-describedby="Atividades Principais"
+              placeholder=" "
+              required
+            />
+            <label htmlFor="atividades_principais">Atividades Principais</label>
+          </div>
+        </div>
+
+        <div className="label-float">
+          <div>
+            <input
+              type="text"
+              id="recursos_principais"
+              name="recursos_principais"
+              aria-describedby="Recursos Principais"
+              placeholder=" "
+              required
+            />
+            <label htmlFor="recursos_principais">Recursos Principais</label>
+          </div>
+        </div>
+
+        <div className="label-float">
+          <div>
+            <input
+              type="text"
+              id="estrutura_de_custos"
+              name="estrutura_de_custos"
+              aria-describedby="Estrutuda de Custos"
+              placeholder=" "
+              required
+            />
+            <label htmlFor="estrutura_de_custos">Estrutura de Custos</label>
           </div>
         </div>
 

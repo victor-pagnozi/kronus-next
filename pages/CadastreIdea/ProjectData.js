@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../../components/Footer";
 import { Container } from "./styles";
 
 export class ProjectData extends Component {

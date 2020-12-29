@@ -6,7 +6,8 @@ export const ContainerFooter = styled.div`
     align-items: center;
     background-color: var(--color-footer);
     height: 100px;
-
+    width: 100%;
+    bottom: 0;
 
     a{
         color: var(--color-text);
