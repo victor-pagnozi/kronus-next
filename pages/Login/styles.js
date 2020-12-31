@@ -28,7 +28,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--color-background);
+    background-color: var(--background-white);
   }
 
   .login-container h1 {
