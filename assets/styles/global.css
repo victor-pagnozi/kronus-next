@@ -66,7 +66,7 @@ body {
 }
 
 .label-float input:focus {
-    border: 2px solid #3951b2;
+    border: 1px solid #3951b2;
     padding: 8px;
 }
 
@@ -127,6 +127,14 @@ body {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 
+  .btn:focus{
+    outline: 0;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+  }
+
   .btn-primary {
     color: #fff;
     background-color: var(--color-primary);
@@ -161,4 +169,11 @@ body {
     color: #fff;
     background-color: var(--color-success-dark);
     border-color: var(--color-success-dark);
+  }
+
+  .btn-success:focus{
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+    box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
   }

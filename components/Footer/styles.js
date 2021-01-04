@@ -5,8 +5,9 @@ export const ContainerFooter = styled.div`
     justify-content: center;
     align-items: center;
     background-color: var(--color-footer);
-    height: 20%;
+    height: 4%;
     width: 100%;
+    position: fixed;
     bottom: 0;
     font-size: 1.6rem;
 
