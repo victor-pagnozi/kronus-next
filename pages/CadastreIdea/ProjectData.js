@@ -3,15 +3,16 @@ import Footer from "../../components/Footer";
 import { Container } from "./styles";
 
 export class ProjectData extends Component {
-  continue = e => {
+  continue = (e) => {
     e.preventDefault();
     this.props.nextStep();
-};
+  };
 
   render() {
     const { values, inputChange } = this.props;
     return (
-        <Container>
+      <Container>
+        <div className="container-cadastro">
           <div className="label-float">
             <div>
               <input
@@ -56,9 +57,15 @@ export class ProjectData extends Component {
           </div>
 
           <div className="button-step">
-              <button className="btn btn-primary continue" onClick={this.continue}>Avançar</button>
+            <button
+              className="btn btn-primary continue"
+              onClick={this.continue}
+            >
+              Avançar
+            </button>
           </div>
-        </Container>
+        </div>
+      </Container>
     );
   }
 }

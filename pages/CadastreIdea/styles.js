@@ -10,7 +10,19 @@ export const Container = styled.form`
   position: relative;
   max-width: 100%;
   height: 100%;
-  margin-bottom: 30px;
+  margin: 30px 0;
+
+  .container-cadastro{
+    background-color: var(--background-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 4px;
+    box-shadow: 0 0 0.5em #d3d3d3;
+    padding-bottom: 30px;
+  }
 
   label {
     margin-right: 20px;
@@ -65,5 +77,9 @@ export const Container = styled.form`
     justify-content: space-around;
     align-items: center;
     width: 50%;
-  } 
+  }
+
+  .btn{
+    width: 10rem;
+  }
 `;
