@@ -36,6 +36,8 @@ export const FormContact = styled.div`
   padding: 2rem 8rem;
   border-radius: 4px;
   box-shadow: 0 0 0.5rem #d3d3d3;
+  
+  min-height: calc(76.6vh - 70px);
 
   h2{
       color: #000;

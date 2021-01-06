@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "./styles";
 
-import Footer from "../../components/Footer";
-
 export class CanvasData extends Component {
   continue = (e) => {
     e.preventDefault();

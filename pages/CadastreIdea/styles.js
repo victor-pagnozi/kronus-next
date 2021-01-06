@@ -7,12 +7,10 @@ export const Container = styled.form`
   background-color: var(--color-background);
   flex-direction: column;
   overflow: hidden;
-  position: relative;
   max-width: 100%;
-  height: 100%;
   margin: 30px 0;
-
-  .container-cadastro{
+  
+  .container-cadastro {
     background-color: var(--background-white);
     display: flex;
     justify-content: center;
@@ -22,6 +20,7 @@ export const Container = styled.form`
     border-radius: 4px;
     box-shadow: 0 0 0.5em #d3d3d3;
     padding-bottom: 30px;
+    min-height: calc(85vh - 70px);
   }
 
   label {
@@ -46,12 +45,12 @@ export const Container = styled.form`
   }
 
   .text-area {
-      display: grid;
-      justify-content: center;
-      align-items: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
   }
 
-  .desc-canvas{
+  .desc-canvas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,19 +58,19 @@ export const Container = styled.form`
     margin-top: 50px;
   }
 
-  .desc-canvas span{
-    font: 500 16px 'Roboto', sans-serif;
+  .desc-canvas span {
+    font: 500 16px "Roboto", sans-serif;
     color: var(--color-primary);
-    text-transform: uppercase; 
+    text-transform: uppercase;
   }
-  .desc-canvas p{
-    font: 200 14px 'Roboto', sans-serif;
+  .desc-canvas p {
+    font: 200 14px "Roboto", sans-serif;
     font-style: italic;
     margin-top: 8px;
     color: var(--color-gray);
   }
 
-  .button-step{
+  .button-step {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -79,7 +78,7 @@ export const Container = styled.form`
     width: 50%;
   }
 
-  .btn{
+  .btn {
     width: 10rem;
   }
 `;

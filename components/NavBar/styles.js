@@ -29,5 +29,6 @@ export const ContainerNav = styled.header`
   img {
     max-width: 100% !important;
     max-height: 100% !important;
+    cursor: pointer;
   }
 `;
