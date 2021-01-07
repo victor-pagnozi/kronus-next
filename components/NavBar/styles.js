@@ -31,4 +31,26 @@ export const ContainerNav = styled.header`
     max-height: 100% !important;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 767px) {
+    .control-nav {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      display: block;
+      width: 30px;
+      padding: 5px 0;
+      border: solid #333;
+      border-width: 3px 0;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .control-nav:before {
+      content: "";
+      display: block;
+      height: 3px;
+      background: #333;
+    }
+  }
 `;

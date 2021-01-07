@@ -30,6 +30,21 @@ function Anuncios(){
             <h2>Titulo</h2>
             <div className="descricao">Descrição do Anuncio</div>
           </Anuncio>
+          <Anuncio>
+            <img src="https://github.com/victor-pagnozi.png" alt="" />
+            <h2>Titulo</h2>
+            <div className="descricao">Descrição do Anuncio</div>
+          </Anuncio>
+          <Anuncio>
+            <img src="https://github.com/victor-pagnozi.png" alt="" />
+            <h2>Titulo</h2>
+            <div className="descricao">Descrição do Anuncio</div>
+          </Anuncio>
+          <Anuncio>
+            <img src="https://github.com/victor-pagnozi.png" alt="" />
+            <h2>Titulo</h2>
+            <div className="descricao">Descrição do Anuncio</div>
+          </Anuncio>
         </ContainerAnuncios>
     );
 }

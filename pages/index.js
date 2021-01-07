@@ -22,7 +22,7 @@ function Home() {
       </Container>
 
       <Container>
-        <Anuncios></Anuncios>
+        <Anuncios/>
       </Container>
 
       <Footer></Footer>
