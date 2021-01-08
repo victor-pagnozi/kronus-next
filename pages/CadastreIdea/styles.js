@@ -9,7 +9,7 @@ export const Container = styled.form`
   overflow: hidden;
   max-width: 100%;
   margin: 30px 0;
-  
+
   .container-cadastro {
     background-color: var(--background-white);
     display: flex;
@@ -54,6 +54,7 @@ export const Container = styled.form`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     margin-top: 50px;
   }
@@ -80,5 +81,43 @@ export const Container = styled.form`
 
   .btn {
     width: 10rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    min-height: 77.3vh;
+    
+
+    .container-cadastro {
+      width: 95%;
+      min-height: calc(85vh - 70px);
+    }
+
+    .label-float input{
+      width: 60vw;
+      font-size: 12px;
+    }
+
+    .label-float label{
+      font-size: 12px;
+    }
+
+    .text-area textarea{
+      width: 60vw !important;
+    }
+
+    button:nth-child(1){
+      margin-left: 22px;
+    }
+
+    .desc-canvas {
+      margin: 50px 8px 8px 0;
+    }
+
+    .desc-canvas span{
+      font-size: 14px;
+    }
+    .desc-canvas p{
+      font-size: 12px;
+    }
   }
 `;
