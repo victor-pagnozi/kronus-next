@@ -5,34 +5,40 @@ import Link from "next/link";
 
 function NavBar() {
   return (
-    <ContainerNav className="header">
+    <ContainerNav>
       <Link href="/">
         <Image
           src="/logo.jpg"
-          width={90}
-          height={70}
+          width={100}
+          height={80}
           objectFit="cover"
           layout="intrinsic"
           alt="Logo do Site"
         />
       </Link>
-      <Link href="/Login">
-        <a>Login</a>
-      </Link>
-      <Link href="/CadastreIdea">
-        <a>Cadastre sua ideia</a>
-      </Link>
-      <Link href="/FaleConosco">
-        <a>Fale Conosco</a>
-      </Link>
 
-      <input type="checkbox" id="control-nav" />
-      <label for="control-nav" class="control-nav"></label>
-      <label for="control-nav" class="control-nav-close"></label>
-
-      <nav class="fR">
-        <ul class="l2"></ul>
-      </nav>
+      <input type="checkbox" id="menu-btn" className="menu-btn"></input>
+      <label htmlFor="menu-btn" className="menu-icon">
+        <span className="navicon"></span>
+      </label>
+      
+      <ul className="menu">
+        <li>
+          <Link href="/Login">
+            <a>Login</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/CadastreIdea">
+            <a>Cadastre sua ideia</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/FaleConosco">
+            <a>Fale Conosco</a>
+          </Link>
+        </li>
+      </ul>
     </ContainerNav>
   );
 }

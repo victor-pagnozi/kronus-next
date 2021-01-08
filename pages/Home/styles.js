@@ -7,4 +7,11 @@ export const Container = styled.body`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 767px) {
+        img{
+            min-height: 30vh;
+            width: auto;
+        }
+    }
 `;
