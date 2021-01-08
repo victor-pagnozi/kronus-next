@@ -14,6 +14,13 @@ export const ContainerAnuncios = styled.div`
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
 `;
 
 export const Anuncio = styled.div`
@@ -39,8 +46,10 @@ export const Anuncio = styled.div`
   }
 
   @media screen and (max-width: 767px) {
-    flex-basis: 100%;
-    max-height: 40vh;
-    max-width: 40vw;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;

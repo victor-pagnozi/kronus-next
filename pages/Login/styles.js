@@ -123,4 +123,43 @@ export const Container = styled.div`
     color: var(--color-primary);
   }
   /*Fim do Float Label*/
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .img-foguete{
+      height: auto;
+      min-width: 100%
+    }
+
+    .img-foguete img{
+      min-height: 100%;
+    }
+
+    .login-container{
+      width: 100%;
+      height: 100%;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    .login-container h1 {
+      font-size: 2rem;
+    }
+
+    .login-container h5 {
+      font-size: 1.3rem;
+    }
+
+    .login-container img {
+      width: 90px;
+    }
+
+    form{
+      margin-bottom: 50px;
+    }
+  }
 `;

@@ -10,7 +10,7 @@ function Home() {
     <div>
       <NavBar></NavBar>
 
-      <Container>
+      <Container className="img-anuncio-principal">
           <Image
             src="https://cdn.pixabay.com/photo/2019/07/07/17/48/avatar-4322968_1280.png"
             alt=""
