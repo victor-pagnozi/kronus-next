@@ -36,7 +36,7 @@ export class CanvasData extends Component {
                 placeholder=" "
                 required
               />
-              <label htmlFor="cliente">Cliente</label>
+              <label htmlFor="cliente">Quem serão os seus clientes?</label>
             </div>
           </div>
 

@@ -12,10 +12,10 @@ function Home() {
 
       <Container className="img-anuncio-principal">
           <Image
-            src="https://cdn.pixabay.com/photo/2019/07/07/17/48/avatar-4322968_1280.png"
+            src="https://kipublicidades.com.br/wp-content/uploads/2019/02/ki-publicidades-anunciantes-5.jpg"
             alt=""
             layout="intrinsic"
-            objectFit="cover"
+            objectFit="contain"
             width={1519}
             height={400}
           />
