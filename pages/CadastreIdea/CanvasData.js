@@ -26,7 +26,7 @@ export class CanvasData extends Component {
               Caso fique com alguma dúvida entre em contato com nosso tutor!
             </p>
           </div>
-          <span className="label-float">
+          <div className="label-float">
             <div>
               <input
                 type="text"
@@ -38,8 +38,13 @@ export class CanvasData extends Component {
               />
               <label htmlFor="cliente">Quem serão os seus clientes?</label>
             </div>
-          </span>
-          <span className="box-explicacao">teste</span>
+            <span className="box-explicacao">
+              <i class="fas fa-question"></i>
+            </span>
+            <div className="box-explicacao-cliente">
+              teste
+            </div>
+          </div>
 
           <div className="label-float">
             <div>

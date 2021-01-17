@@ -83,11 +83,28 @@ export const Container = styled.form`
     width: 10rem;
   }
 
+  .label-float{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
   .box-explicacao{
       background-color: var(--color-background-dark);
       color: var(--color-text);
       display: flex;
-      height: 30px;
+      justify-content: center;
+      align-items: center;
+      height: 2rem;
+      width: 2rem;
+      margin-bottom: 8px;
+      margin-left: 8px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+
+  .box-explicacao-cliente{
+    display: none;
   }
 
   @media screen and (max-width: 767px) {
