@@ -83,6 +83,13 @@ export const Container = styled.form`
     width: 10rem;
   }
 
+  .box-explicacao{
+      background-color: var(--color-background-dark);
+      color: var(--color-text);
+      display: flex;
+      height: 30px;
+  }
+
   @media screen and (max-width: 767px) {
     min-height: 77.3vh;
     

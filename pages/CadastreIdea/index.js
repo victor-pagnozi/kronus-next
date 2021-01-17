@@ -11,6 +11,7 @@ class Cadastre extends Component {
     titulo: "",
     descricaoBreve: "",
     descricao: "",
+    equipe: "",
     arquivoPdf: "",
     categorias: "",
     contatoTelefone: "",

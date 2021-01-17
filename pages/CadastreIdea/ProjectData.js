@@ -40,6 +40,7 @@ export class ProjectData extends Component {
             </div>
           </div>
 
+
           <div className="">
             <div className="text-area">
               <textarea
@@ -52,6 +53,20 @@ export class ProjectData extends Component {
                 cols="2"
                 rows="7"
               />
+            </div>
+          </div>
+
+          <div className="label-float">
+            <div>
+              <input
+                type="text"
+                id="equipe"
+                name="equipe"
+                aria-describedby="Nome de outros integrantes da equipe"
+                placeholder=" "
+                required
+              />
+              <label htmlFor="equipe">Nome de outros integrantes da equipe</label>
             </div>
           </div>
 
